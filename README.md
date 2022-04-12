@@ -1,6 +1,6 @@
 # personal-dataplatform
 
-
+- Build a local solution based on Kubernetes (with miniKube)
 - Build a simple docker image containing the requirements libraries and execute python
 - Install Jenkins over Kubernetes
 - Configure the build pipeline between github and Jenkins
@@ -15,3 +15,7 @@
 - Build a endpoint to get fire alarms on specific regions
 - BUild a endpoint to get data about government contracts
 - Build a endpoint to create a DAG with a configuration file (yml)
+- Build a pipeline to warn supervisors e get their feedback
+  - E-mail server
+  - Slack
+- Use the LocalStack to test offline AWS Services
