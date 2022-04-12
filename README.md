@@ -1,5 +1,18 @@
 # personal-dataplatform
 
+# Install checklist
+- Kubernetes
+- MiniKube
+- Terraform
+- Jenkins
+- Airflow
+- QGIS
+  
+# Configuration checklist
+- Github (Webhook - Trigger events with POSTs)
+
+
+# Ideas
 - Build a local solution based on Kubernetes (with miniKube)
 - Build a simple docker image containing the requirements libraries and execute python
 - Install Jenkins over Kubernetes
