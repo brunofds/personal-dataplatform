@@ -1,1 +1,1 @@
-echo "Ola Jenkins com o pipeline do Github"
+echo "Ola Jenkins com o pipeline do Github, agora com a alteração (v.2)!"
