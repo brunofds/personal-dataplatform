@@ -8,6 +8,8 @@
 - Airflow
 - QGIS
 - LocalStock (Cloud Service Emulator)
+- Spark
+- Oracle Data Integrator (ODI)
   
 # Configuration checklist
 - [X] Minikube
