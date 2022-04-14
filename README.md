@@ -16,6 +16,7 @@
   - Update repo
   - Create a persistent volume for controller Pod
   - Get admin password following official doc
+- [X] Kubernetes
 - Github (Webhook - Trigger events with POSTs)
 
 
