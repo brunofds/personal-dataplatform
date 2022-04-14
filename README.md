@@ -1,14 +1,21 @@
 # personal-dataplatform
 
 # Install checklist
-- Kubernetes
-- MiniKube
+- [X] Kubernetes
+- [X] MiniKube
 - Terraform
 - Jenkins
 - Airflow
 - QGIS
+- LocalStock (Cloud Service Emulator)
   
 # Configuration checklist
+- [X] Minikube
+- [X] Jenkins Helm
+  - Add jenkins repo
+  - Update repo
+  - Create a persistent volume for controller Pod
+  - Get admin password following official doc
 - Github (Webhook - Trigger events with POSTs)
 
 
@@ -24,7 +31,7 @@
   - The application must be hosted on AWS
   - Generate a CSV
   - Define the sentiment analysis (real time)
-  - We can show da csv data over Grafana
+  - We can show csv data over BI Tool
 - Build a endpoint to get fire alarms on specific regions
 - BUild a endpoint to get data about government contracts
 - Build a endpoint to create a DAG with a configuration file (yml)
