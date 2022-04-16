@@ -10,6 +10,7 @@
 - LocalStock (Cloud Service Emulator)
 - Spark
 - Oracle Data Integrator (ODI)
+- Pentaho
   
 # Configuration checklist
 - [X] Minikube
@@ -35,6 +36,7 @@
   - Generate a CSV
   - Define the sentiment analysis (real time)
   - We can show csv data over BI Tool
+  - Use Github, jenkins and Docker to upload a docker on EC2 instance.
 - Build a endpoint to get fire alarms on specific regions
 - BUild a endpoint to get data about government contracts
 - Build a endpoint to create a DAG with a configuration file (yml)
