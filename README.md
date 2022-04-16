@@ -19,6 +19,7 @@
   - Update repo
   - Create a persistent volume for controller Pod
   - Get admin password following official doc
+- Jenkins Reverse Proxy with Nginx or Apache
 - [X] Kubernetes
 - Github (Webhook - Trigger events with POSTs)
 
