@@ -44,3 +44,4 @@
   - E-mail server
   - Slack
 - Use the LocalStack to test offline AWS Services
+- Test
