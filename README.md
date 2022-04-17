@@ -3,14 +3,15 @@
 # Install checklist
 - [X] Kubernetes
 - [X] MiniKube
-- Terraform
-- Jenkins
+- [X] Terraform
+- [X] Jenkins
 - Airflow
 - QGIS
 - LocalStock (Cloud Service Emulator)
 - Spark
 - Oracle Data Integrator (ODI)
 - Pentaho
+- Nginx
   
 # Configuration checklist
 - [X] Minikube
