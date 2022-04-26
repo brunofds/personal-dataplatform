@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.lock.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc

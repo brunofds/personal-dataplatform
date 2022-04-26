@@ -5,7 +5,7 @@
 - [X] MiniKube
 - [X] Terraform
 - [X] Jenkins
-- Airflow
+- [X] Airflow 2.2.5
 - QGIS
 - LocalStock (Cloud Service Emulator)
 - Spark
@@ -15,14 +15,16 @@
   
 # Configuration checklist
 - [X] Minikube
-- [X] Jenkins Helm
+- [X] Jenkins Helm (helm is a package manager for Kubernates)
   - Add jenkins repo
   - Update repo
   - Create a persistent volume for controller Pod
   - Get admin password following official doc
-- Jenkins Reverse Proxy with Nginx or Apache
+  - Jenkins Reverse Proxy with Nginx or Apache
+- [X] Airflow 2.2.5
 - [X] Kubernetes
 - Github (Webhook - Trigger events with POSTs)
+  - It is only possible if you have a jenkins available on Internet (public IP)
 
 
 # Ideas
@@ -47,3 +49,7 @@
   - Slack
 - Use the LocalStack to test offline AWS Services
 - Test 4
+
+
+# Airflow Configuration Steps and Tips
+I tried to create and execute Airflow docker-compose on '/opt' directory, but I had permissions problems. It is better to create a folder on '/home/\<user\>' and follow [the Airflow documentation](https://airflow.apache.org/docs/apache-airflow/2.2.5/start/local.html).
