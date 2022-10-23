@@ -6,15 +6,22 @@
 - [X] Terraform
 - [X] Jenkins
 - [X] Airflow 2.2.5
+- [X] FastAPI
+- Kafka
+- ElasticSearch
+- Logstash
 - QGIS
 - LocalStock (Cloud Service Emulator)
 - Spark
 - Oracle Data Integrator (ODI)
 - Pentaho
 - Nginx
+- PowerBI or Tableau Plublic
+- PostgreSQL (docker or Kubernetes)
+  
   
 # Configuration checklist
-- [X] Minikube
+- [X] Minikube (require a hyvervisor such as VirtualBox)
 - [X] Jenkins Helm (helm is a package manager for Kubernates)
   - Add jenkins repo
   - Update repo
@@ -48,8 +55,21 @@
   - E-mail server
   - Slack
 - Use the LocalStack to test offline AWS Services
-- Test 4
-
+- Using a business case to follow the steps to build a Data Warehouse. Think about Suzano's areas
+  - Topics
+    - Areas (country, states, cities, farms, allotment...)
+    - Eucalyptus (age, volum, quantity, flag replanting and how many times it has been replanted ...)
+    - Factory (final volum per area)
+    - Logistics (distance, price, distance asphalt, toll cost, toll quantity)
+    - Remote Sensing (NDVI per area, NDVI per satellite)
+  - Business Modeling
+  - Dimensional Modeling
+  - Physical Modeling
+- Test DataBase ACID
 
 # Airflow Configuration Steps and Tips
 I tried to create and execute Airflow docker-compose on '/opt' directory, but I had permissions problems. It is better to create a folder on '/home/\<user\>' and follow [the Airflow documentation](https://airflow.apache.org/docs/apache-airflow/2.2.5/start/local.html).
+
+# FastAPI
+Follow the [oficial doc](https://fastapi.tiangolo.com/). It is simple and easy.
+
