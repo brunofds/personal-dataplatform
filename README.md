@@ -1,4 +1,10 @@
-# personal-dataplatform
+# Personal-dataplatform
+
+# Projects
+## Pix integration API - Pagseguro
+Integrate payments with Pix Integration with Pagseguro API
+- [Pagbank Pix Documentation](https://documenter.getpostman.com/view/10863174/TVetc6HV?_ga=2.166319102.1751810140.1677731128-937475455.1650844592&_gl=1*18nh6kq*_ga*OTM3NDc1NDU1LjE2NTA4NDQ1OTI.*_ga_VZW8YVGM9B*MTY3NzgwOTgwOS4xLjEuMTY3NzgxMDY4MC4wLjAuMA..#c14c0301-87a0-42f4-9274-59a274e3d82e)
+- [Bacen Pix API](https://github.com/bacen/pix-api)
 
 # Install checklist
 - [X] Kubernetes
@@ -8,6 +14,7 @@
 - [X] Airflow 2.2.5
 - [X] FastAPI
 - Kafka
+- PostgreSQL (docker or Kubernetes)
 - ElasticSearch
 - Logstash
 - QGIS
@@ -17,7 +24,7 @@
 - Pentaho
 - Nginx
 - PowerBI or Tableau Plublic
-- PostgreSQL (docker or Kubernetes)
+- DBT
   
   
 # Configuration checklist
@@ -66,6 +73,8 @@
   - Dimensional Modeling
   - Physical Modeling
 - Test DataBase ACID
+- Integration with different Web Services (AWS and Google Cloud)
+
 
 # Airflow Configuration Steps and Tips
 I tried to create and execute Airflow docker-compose on '/opt' directory, but I had permissions problems. It is better to create a folder on '/home/\<user\>' and follow [the Airflow documentation](https://airflow.apache.org/docs/apache-airflow/2.2.5/start/local.html).
